@@ -1,0 +1,88 @@
+/* === Blog Page Styling === */
+
+.blog-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  margin-top: 40px;
+}
+
+.blog-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.blog-form input,
+.blog-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.blog-form button {
+  background: #3498db;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+
+.blog-form button:hover {
+  background: #2980b9;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3498db;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.post {
+  background: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.post h2 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.post small {
+  color: #888;
+}
+
+.post button {
+  margin-top: 10px;
+  margin-right: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.post button:first-of-type {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.post button:last-of-type {
+  background-color: #f1c40f;
+  color: black;
+}
