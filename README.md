@@ -25,8 +25,3 @@ A full-stack blog platform that allows users to create, edit, delete, and manage
 
 ---
 
-## 🛠️ Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/gowthammayakannan/Blog-Application.git
